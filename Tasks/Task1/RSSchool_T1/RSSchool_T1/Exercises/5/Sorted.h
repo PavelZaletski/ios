@@ -7,4 +7,6 @@
 
 @interface Sorted : NSObject
 - (ResultObject*)sorted:(NSString*)string;
+-(ResultObject *)findSwappedElements:(NSArray *)source and:(NSArray *)sorted;
+-(ResultObject *)findReversedElements:(NSArray *)source and:(NSArray *)sorted;
 @end
